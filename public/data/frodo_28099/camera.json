@@ -1,0 +1,10 @@
+{
+ "cameraHeightM": 1.08,
+ "cameraPitchDeg": 5.3,
+ "hfovDeg": 105,
+ "source": {
+  "hfovDeg": "default (rotation gave 141 deg, outside (80.0, 125.0))",
+  "cameraPitchDeg": "vanishing points (16 frames)",
+  "cameraHeightM": "horizon crossing (1188 cars/pedestrians)"
+ }
+}

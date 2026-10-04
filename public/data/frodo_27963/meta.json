@@ -1,0 +1,37 @@
+{
+ "hfovDeg": 105,
+ "fps": 20.0,
+ "width": 1024,
+ "height": 576,
+ "frames": 2100,
+ "model": "scdepthv3",
+ "depthMode": "relative",
+ "nearM": null,
+ "farM": null,
+ "inverse": false,
+ "normLo": 18.1094,
+ "normHi": 36.5625,
+ "hz": 3.0,
+ "input": [
+  256,
+  320
+ ],
+ "video": "depth.mp4",
+ "deployable": true,
+ "comparison": {
+  "model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "depthMode": "relative",
+  "nearM": null,
+  "farM": null,
+  "inverse": true,
+  "normLo": 0.0,
+  "normHi": 6.0195,
+  "hz": 20.0,
+  "input": [
+   256,
+   320
+  ],
+  "video": "depth_da2.mp4",
+  "deployable": false
+ }
+}
