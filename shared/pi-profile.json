@@ -1,0 +1,48 @@
+{
+ "source": "estimated: win32-x64, AMD Ryzen 9 9950X3D 16-Core Processor x32, 64 GiB, node v24.15.0, cpu 4 threads, latencies x8 (Pi 5 not measured yet)",
+ "measured": false,
+ "date": "2026-10-03",
+ "model": "laya",
+ "threads": 4,
+ "p50Ms": {
+  "collision_risk": 1952,
+  "maneuver": 1952,
+  "target_speed": 1952,
+  "pedestrian_yield": 1952,
+  "path_blocked": 1952,
+  "crossing_safe": 1952,
+  "emergency_stop": 1952,
+  "route_adherence": 1952,
+  "localization_trust": 1952,
+  "perception_confidence": 1952
+ },
+ "p95Ms": {
+  "collision_risk": 2648,
+  "maneuver": 2648,
+  "target_speed": 2648,
+  "pedestrian_yield": 2648,
+  "path_blocked": 2648,
+  "crossing_safe": 2648,
+  "emergency_stop": 2648,
+  "route_adherence": 2648,
+  "localization_trust": 2648,
+  "perception_confidence": 2648
+ },
+ "cycleSumP95Ms": 26480,
+ "maxHz": 0.042,
+ "rateFactor": 0.021,
+ "rates": {
+  "collision_risk": 0.042,
+  "maneuver": 0.021,
+  "target_speed": 0.021,
+  "pedestrian_yield": 0.021,
+  "path_blocked": 0.042,
+  "crossing_safe": 0.021,
+  "emergency_stop": 0.042,
+  "route_adherence": 0.004,
+  "localization_trust": 0.002,
+  "perception_confidence": 0.004
+ },
+ "coldLoadMs": 8496,
+ "rssMB": 3086
+}

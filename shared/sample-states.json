@@ -1,0 +1,8414 @@
+{
+ "clipId": "frodo_28126",
+ "count": 200,
+ "states": [
+  {
+   "t": 0.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 258.5
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.5,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.1,
+      "approaching": false,
+      "conf": 0.9
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 8.8,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.5,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 0.68,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 259.3
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.1,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 8.1,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 20.5,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 1.13,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 258.4
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1.7,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 7.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.8,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 19.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 1.58,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 256.4
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 7.2,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 2.03,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 263.8
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 0.4,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 6.2,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.9,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 2.48,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 263.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 6.6,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 5.7,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.5,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 2.93,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 259.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 6.2,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 5.2,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.2,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 16.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 3.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 256.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.5,
+      "approaching": true,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 3.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 264.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.7,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.1,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.2,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 15.3,
+      "approaching": true,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 4.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 260.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.8,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.1,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 4.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 257.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.3,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 5.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 255.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.9,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.4,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.5,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 5.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 254.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 4.6,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.4,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.1,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 6.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 251.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 4.2,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "person",
+      "position": "right",
+      "dist_m": 5.4,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 6.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 248.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.9,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.6,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 6.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 249.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.5,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.4,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 7.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 247.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.3,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.9,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 7.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 246.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.2,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.6,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 8.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 249.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.2,
+     "crossing_now": true,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 8.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 246.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 2.9,
+     "crossing_now": true,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.1,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 9.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 248.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 2.5,
+     "crossing_now": true,
+     "off_route_m": 0.7
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.6,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.4,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 9.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 252
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 2.1,
+     "crossing_now": true,
+     "off_route_m": 0.8
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 10.2,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 10.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 250.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.7,
+     "crossing_now": true,
+     "off_route_m": 1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.4,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.7,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 10.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 249.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.5,
+     "crossing_now": true,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.2,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 13.4,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 11.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 254.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.5,
+     "crossing_now": true,
+     "off_route_m": 0.8
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 8.8,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.7,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 13.4,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 11.48,
+   "state": {
+    "robot": {
+     "speed_mps": 0.5,
+     "heading_deg": 259.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1,
+     "crossing_now": true,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.7,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.6,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.7,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 11.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.5,
+     "heading_deg": 264.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 30.4,
+     "crossing_now": true,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.3,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.8,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 12.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 270.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 9.8,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 11.5,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 12.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 276.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 9.1,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 10.2,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "person",
+      "position": "right",
+      "dist_m": 14.8,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 13.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 281.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.4,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.3,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 14.7,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 13.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 287.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 10.8,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.1,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 25.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 14.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 293.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.7,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 4.4,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 7.3,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 10.8,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 24.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 14.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 295.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 4,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 7,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.8,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 10.5,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 25.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 15.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 297.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.7
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 6.4,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 15.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 303.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 6.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.8,
+      "approaching": true,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 15.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 310
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": true,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.8,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "motorcycle",
+      "position": "center",
+      "dist_m": 8.5,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.4,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 16.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 312.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.8,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.5,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.5,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 16.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 316
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 4.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.5,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.7,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 17.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 325.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.7,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.9,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 26.8,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 17.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 329.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.6,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 11.7,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 28.1,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 18.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 326.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6.9,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.4,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 18.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 323.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.1,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 19.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 321.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.1,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 8.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 19.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 320.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.1,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 8.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 11.7,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.8,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 20.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 327.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 20.48,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 323.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.9,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 20.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 320.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.1,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 24.6,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 21.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 320.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.3,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.1,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.6,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 21.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.5,
+     "heading_deg": 327.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4.8,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.7,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 22.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.5,
+     "heading_deg": 318.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 6.7,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.3,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 22.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.3,
+     "heading_deg": 316.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.5,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.6,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.2,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 23.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.3,
+     "heading_deg": 321.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.4,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.7,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 23.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.3,
+     "heading_deg": 332.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.3,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.7,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.1,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 24.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.3,
+     "heading_deg": 341.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.2,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.7,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 8.3,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 24.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 335.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29.1,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 4.3,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 8,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 24.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 333.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 29,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.4,
+      "approaching": true,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 7.6,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 25.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 332.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.9,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 7.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 19.6,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 25.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 339
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.9,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6.8,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 26.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 336
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.9,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 26.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 332.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.9,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 18.4,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 27.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.1,
+     "heading_deg": 322
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.8,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.7,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.2,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 17.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 27.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 322.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.8,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.8,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 19,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 28.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.4,
+     "heading_deg": 321.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.7,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.2,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.6,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 6,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 18.4,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 28.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 317.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.5,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 6.1,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.5,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 17.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 29.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 317.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 28.1,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "person",
+      "position": "left",
+      "dist_m": 5.4,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 17.3,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 29.48,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 328.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 27.6,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.7,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 18.4,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 29.93,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 327.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 27,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.8,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 14,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 19,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 30.38,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 323.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 26.4,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 13.2,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 18.4,
+      "approaching": false,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 30.83,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 321.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 26,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 10.3,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 12.4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 31.28,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 322.1
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 25.5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 11.8,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 17.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 31.73,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 333.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 24.9,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 7.1,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 9.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 11.4,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.8,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 32.18,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 339.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 24.3,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 6.5,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 32.63,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 336
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 23.7,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 8.3,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 10,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.1,
+      "approaching": false,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 33.08,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 333.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 23.2,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.4,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 7.7,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 9.2,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 33.53,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 330.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 22.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.1,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 6.7,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 8.1,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.1,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 33.98,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 328.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 21.9,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 4.6,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 6.1,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.5,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 34.43,
+   "state": {
+    "robot": {
+     "speed_mps": 1.5,
+     "heading_deg": 326
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 21.2,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 4.4,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 6.5,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.1,
+      "approaching": true,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 34.88,
+   "state": {
+    "robot": {
+     "speed_mps": 1.5,
+     "heading_deg": 323.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 20.6,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 4.7,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.4,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 35.33,
+   "state": {
+    "robot": {
+     "speed_mps": 1.5,
+     "heading_deg": 320.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 19.9,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 4.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.1,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 35.78,
+   "state": {
+    "robot": {
+     "speed_mps": 1.6,
+     "heading_deg": 318.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 19.3,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.7,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 36.23,
+   "state": {
+    "robot": {
+     "speed_mps": 1.6,
+     "heading_deg": 315.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 18.6,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.8,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 36.68,
+   "state": {
+    "robot": {
+     "speed_mps": 1.5,
+     "heading_deg": 318.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 17.9,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.5,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 37.13,
+   "state": {
+    "robot": {
+     "speed_mps": 1.5,
+     "heading_deg": 317.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 17.1,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "right",
+      "dist_m": 2.4,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 37.58,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 315.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 16.5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 1.8,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 2.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.8,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 38.03,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 314.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 16,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.3,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 38.48,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 323.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 15.5,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.7,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.9,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 38.93,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 324.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 15.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 1.9,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.5,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 39.38,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 319.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 14.7,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 39.83,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 322.4
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 14.2,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.7,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.7,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "person",
+      "position": "right",
+      "dist_m": 17.1,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 40.28,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 333.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 13.8,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.1,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 40.73,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 341.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 13.3,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 8.3,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 41.18,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 336.9
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 12.7,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 8.1,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 41.63,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 332.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 12.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.7,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "person",
+      "position": "center",
+      "dist_m": 15.2,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 42.08,
+   "state": {
+    "robot": {
+     "speed_mps": 1.4,
+     "heading_deg": 336.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 11.4,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 7.3,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 42.53,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 348
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 10.7,
+     "crossing_now": false,
+     "off_route_m": 0.7
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 42.98,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 350.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 10.2,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 6,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 43.43,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 343.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 9.8,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.8,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 43.88,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 340.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 9.3,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.6,
+      "approaching": false,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 44.33,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 337
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 8.9,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.3,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "person",
+      "position": "center",
+      "dist_m": 12.1,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 44.78,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 334.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 8.4,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 5.1,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "person",
+      "position": "center",
+      "dist_m": 10.1,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "person",
+      "position": "center",
+      "dist_m": 11.1,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 45.23,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 331.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 7.9,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4.8,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 45.68,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 328.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 7.4,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4.5,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 46.13,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 326.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 6.8,
+     "crossing_now": true,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4.2,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 4.3,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 46.58,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 324
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 6.3,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.8,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "person",
+      "position": "right",
+      "dist_m": 8.1,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 8.8,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 47.03,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 321.7
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.7,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.5,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 4.3,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 8.2,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 47.48,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 323.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 5.2,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 3.9,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 8.1,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 47.93,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 334
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 4.6,
+     "crossing_now": true,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 48.38,
+   "state": {
+    "robot": {
+     "speed_mps": 1.3,
+     "heading_deg": 334
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 4.1,
+     "crossing_now": true,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.9,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 3.4,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 12.6,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 48.83,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 329.8
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3.6,
+     "crossing_now": true,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": false,
+      "conf": 0.9
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 2.8,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 11.8,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 49.28,
+   "state": {
+    "robot": {
+     "speed_mps": 1.2,
+     "heading_deg": 328.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 3,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 2.3,
+      "approaching": true,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 6.7,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 49.73,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 337.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 2.6,
+     "crossing_now": true,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.9
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 11.7,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 50.18,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 339.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 2.2,
+     "crossing_now": true,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.6,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "right",
+      "dist_m": 10.9,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 50.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 340.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.8,
+     "crossing_now": true,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 2.9,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 3.8,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 6.2,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 51.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 352.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.5,
+     "crossing_now": true,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 6.3,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 11.8,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 51.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 6.3
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 1.2,
+     "crossing_now": true,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.8,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 2.5,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.2,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 12.8,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 51.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 19.6
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 0.9,
+     "crossing_now": true,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 9.7,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "right",
+      "dist_m": 15.9,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 52.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 32.2
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 0.6,
+     "crossing_now": true,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.7,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.5,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 9,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.8,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 52.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 33
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 0.3,
+     "crossing_now": true,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.9,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.4,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 17.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 53.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 30.5
+    },
+    "route": {
+     "next_maneuver": "turn_right",
+     "dist_to_maneuver_m": 0.1,
+     "crossing_now": true,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.4,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 8.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.8,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 53.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 34.8
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 8.8,
+     "crossing_now": true,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "right",
+      "dist_m": 1.2,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 7.4,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 8.9,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 54.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 45.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 8.4,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "center",
+      "dist_m": 7.8,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.4,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 54.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 46.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 8.1,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 5.9,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.9,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 55.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 48.7
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 8,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.9,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 55.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 49.3
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 7.9,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 5.7,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.8,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 56.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 47.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 7.6,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 4.3,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 5.1,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.4,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 56.48,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 45.9
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 7.2,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.4,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 16.4,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 56.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 54.4
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 6.8,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.7,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 15.1,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 57.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 64.9
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 6.5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.7,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.7,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 57.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 66.2
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 6.1,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.5,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.7,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 58.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 60.8
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 5.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 58.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 59.3
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 5.5,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.6,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 59.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 65.5
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 5.4,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.3,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.7,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 59.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 63.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 5.3,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.5,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.5,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 60.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 61.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 4.8,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.6,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.6,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.5,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 14.4,
+      "approaching": false,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 60.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 59.3
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 4.3,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.7,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 60.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 59.8
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 4,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.7,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 9.4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 13.4,
+      "approaching": false,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 61.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 62.2
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 3.6,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.5,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 61.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 59.7
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 3.2,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.8,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12.3,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 62.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 56.2
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.8,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.8,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 62.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 60.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.6,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 3.8,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 12,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 63.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 66.7
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.6,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.6,
+      "approaching": false,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 63.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 63.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.5,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": false,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 11.1,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 64.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 62.7
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 2.2,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 2.4,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.7,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 64.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 71.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1.9,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 10.2,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 65.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 68.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1.5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.6,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.7,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 65.48,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 64.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1.1,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "blocked",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.4,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.3,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.7,
+      "approaching": true,
+      "conf": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "t": 65.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 69.1
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 1,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "partial",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.2,
+      "approaching": true,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 9.2,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 66.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 80.2
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 0.9,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "blocked"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 6.5,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.7,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 66.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 74
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 0.8,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 6.1,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 8.3,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 67.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 69.6
+    },
+    "route": {
+     "next_maneuver": "slight_left",
+     "dist_to_maneuver_m": 0.3,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.5,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.5,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.9,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 67.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 73
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 8.2,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.8,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 5.5,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 7.6,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 68.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 70.8
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 7.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 4.7,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.7,
+      "approaching": true,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 68.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 65.2
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 7.3,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 4.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.5,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 69.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 61.3
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 7.2,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.9,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6.3,
+      "approaching": true,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 69.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 67.6
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 7,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 6,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 69.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 60.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 6.7,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 3.1,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.6,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 70.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 55.8
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 6.4,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.8,
+      "approaching": true,
+      "conf": 0.9
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.5,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 70.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 63.6
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 6.2,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 5.1,
+      "approaching": true,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 71.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 62.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 6,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.3,
+      "approaching": true,
+      "conf": 0.8
+     },
+     {
+      "type": "car",
+      "position": "center",
+      "dist_m": 4.8,
+      "approaching": true,
+      "conf": 0.5
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 8,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 71.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 56.9
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 5.7,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": false,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 3.4,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 72.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 60
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 5.3,
+     "crossing_now": false,
+     "off_route_m": 0.7
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "motorcycle",
+      "position": "left",
+      "dist_m": 1.9,
+      "approaching": true,
+      "conf": 0.7
+     },
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 6.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 72.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 69.4
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 4.8,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 4,
+      "approaching": true,
+      "conf": 0.3
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 6.6,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 73.13,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 66.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 4.6,
+     "crossing_now": false,
+     "off_route_m": 0.8
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.8,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 73.58,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 65.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 4.4,
+     "crossing_now": false,
+     "off_route_m": 0.6
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.6,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 74.03,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 65.4
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 4.2,
+     "crossing_now": false,
+     "off_route_m": 0.7
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.4,
+      "approaching": true,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 74.48,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 65
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 4,
+     "crossing_now": false,
+     "off_route_m": 0.9
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.5,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 74.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 64.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.8,
+     "crossing_now": false,
+     "off_route_m": 1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.3,
+      "approaching": false,
+      "conf": 0.3
+     },
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.5,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 75.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 64.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.6,
+     "crossing_now": false,
+     "off_route_m": 0.8
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 5.4,
+      "approaching": false,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 75.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 64.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.6,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 76.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 66.1
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.5,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": true,
+      "conf": 0.4
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 6.4,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 76.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 74.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.4,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 4.9,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 77.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 86.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 3.2,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.7,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 77.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 85.4
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 2.9,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 4.1,
+      "approaching": true,
+      "conf": 0.7
+     }
+    ]
+   }
+  },
+  {
+   "t": 78.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 80.1
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 2.7,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.8,
+      "approaching": true,
+      "conf": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "t": 78.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.7,
+     "heading_deg": 72.5
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 2.4,
+     "crossing_now": false,
+     "off_route_m": 0.5
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.8,
+      "approaching": true,
+      "conf": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "t": 78.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 59.3
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 2.1,
+     "crossing_now": false,
+     "off_route_m": 0.4
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.9,
+      "approaching": false,
+      "conf": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "t": 79.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.6,
+     "heading_deg": 55.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 1.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "partial"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.8,
+      "approaching": true,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 79.88,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 51.8
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 1.5,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "car",
+      "position": "left",
+      "dist_m": 1.6,
+      "approaching": false,
+      "conf": 0.8
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 3.2,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 80.33,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 55.7
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 1.4,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.4,
+      "approaching": true,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 80.78,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 52.4
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 1.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.2,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 81.23,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 56
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 0.6,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "blocked",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "left",
+      "dist_m": 2.1,
+      "approaching": false,
+      "conf": 0.6
+     },
+     {
+      "type": "bus",
+      "position": "left",
+      "dist_m": 2.5,
+      "approaching": false,
+      "conf": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "t": 81.68,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 64.3
+    },
+    "route": {
+     "next_maneuver": "slight_right",
+     "dist_to_maneuver_m": 0.1,
+     "crossing_now": false,
+     "off_route_m": 0
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 82.13,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 57.6
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 8.7,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 82.58,
+   "state": {
+    "robot": {
+     "speed_mps": 1.1,
+     "heading_deg": 63.1
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 8.2,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 83.03,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 66.4
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 7.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 21.8,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 83.48,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 62.6
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 7.4,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 83.93,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 58.4
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 7,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 84.38,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 54.9
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 6.5,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 84.83,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 52.1
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 6.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "partial",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 85.28,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 49.7
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 5.8,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 85.73,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 47
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 5.4,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 86.18,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 46
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 5.1,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 86.63,
+   "state": {
+    "robot": {
+     "speed_mps": 0.8,
+     "heading_deg": 56.7
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 4.7,
+     "crossing_now": false,
+     "off_route_m": 0.1
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 87.08,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 61
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 4.3,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 87.53,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 56.7
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 3.9,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 87.98,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 60.7
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 3.5,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 88.43,
+   "state": {
+    "robot": {
+     "speed_mps": 0.9,
+     "heading_deg": 71.8
+    },
+    "route": {
+     "next_maneuver": "straight",
+     "dist_to_maneuver_m": 3.1,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": []
+   }
+  },
+  {
+   "t": 88.88,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 77.6
+    },
+    "route": {
+     "next_maneuver": "arrived",
+     "dist_to_maneuver_m": 2.7,
+     "crossing_now": false,
+     "off_route_m": 0.3
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 12.4,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 89.33,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 70.6
+    },
+    "route": {
+     "next_maneuver": "arrived",
+     "dist_to_maneuver_m": 2.3,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 12,
+      "approaching": false,
+      "conf": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "t": 89.78,
+   "state": {
+    "robot": {
+     "speed_mps": 1,
+     "heading_deg": 63.6
+    },
+    "route": {
+     "next_maneuver": "arrived",
+     "dist_to_maneuver_m": 1.9,
+     "crossing_now": false,
+     "off_route_m": 0.2
+    },
+    "gps": {
+     "accuracy_m": 4
+    },
+    "free_space": {
+     "left": "open",
+     "center": "open",
+     "right": "open"
+    },
+    "objects": [
+     {
+      "type": "truck",
+      "position": "center",
+      "dist_m": 11.7,
+      "approaching": false,
+      "conf": 0.6
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "laya-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone Laya decision service (Node HTTP). Runs on the PC or on the rover's Raspberry Pi 5.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "bench": "tsx src/bench.ts",
+    "quant-eval": "tsx src/quant-eval.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@receptron/laya": "0.1.2",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "~6.0.3"
+  }
+}
