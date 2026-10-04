@@ -1,0 +1,7 @@
+{
+  "$comment": "Hand-labelled from front.mp4 (3 s contact sheet + GPS heading): road/junction crossings, seconds from clip start.",
+  "crossings": [
+    { "tStart": 15.0, "tEnd": 24.0, "note": "T-junction, turn across the cross street" },
+    { "tStart": 56.0, "tEnd": 64.0, "note": "intersection with painted crossing lines" }
+  ]
+}

@@ -1,0 +1,31 @@
+[project]
+name = "laya-demo-preprocess"
+version = "0.1.0"
+description = "Offline perception preprocessing for the Laya delivery-robot demo"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch>=2.7",
+  "torchvision>=0.22",
+  "ultralytics>=8.3",
+  "transformers>=4.45",
+  "opencv-python>=4.10",
+  "numpy>=1.26",
+  "imageio-ffmpeg>=0.5",
+  "huggingface_hub>=0.25",
+  "onnx>=1.16",
+  "onnxruntime>=1.20",
+  "tqdm>=4.66",
+  "lap>=0.5",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }

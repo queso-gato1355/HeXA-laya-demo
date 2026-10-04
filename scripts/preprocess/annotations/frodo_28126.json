@@ -1,0 +1,7 @@
+{
+  "$comment": "Hand-labelled from front.mp4: road/junction crossings (seconds from clip start).",
+  "crossings": [
+    { "tStart": 8.0, "tEnd": 16.0, "note": "junction at first right turn" },
+    { "tStart": 46.0, "tEnd": 54.0, "note": "intersection at second right turn" }
+  ]
+}

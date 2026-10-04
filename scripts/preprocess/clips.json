@@ -1,0 +1,15 @@
+{
+  "$comment": "Demo clip catalog (FrodoBots-2K part 10). pick_clip.py cut --clip-id <id> uses ride/start/dur from here; make_route.py writes the label/description into src/data/routes/.",
+  "clips": [
+    { "clipId": "frodo_28126", "ride": "ride_28126_20240406043024", "part": 10, "start": 1712378086.383, "dur": 90,
+      "label": "주거지 골목 · 교차로", "description": "필리핀 주거지 이면도로. 주차 차량·오토바이·트라이시클이 많고 우회전 교차로 2곳" },
+    { "clipId": "frodo_28107", "ride": "ride_28107_20240406022550", "part": 10, "start": 1712370635.311, "dur": 120,
+      "label": "캠퍼스 광장 · 보행자", "description": "중국 대학 캠퍼스 광장. 로봇 바로 앞을 지나는 보행자와 자전거가 많다" },
+    { "clipId": "frodo_27963", "ride": "ride_27963_20240405152300", "part": 10, "start": 1712330643.659, "dur": 105,
+      "label": "공원 산책로 · 근접 보행자", "description": "공원 자갈길. 보행자가 로봇 정면 가까이 걸어가고 차량은 없다" },
+    { "clipId": "frodo_28099", "ride": "ride_28099_20240406020844", "part": 10, "start": 1712369385.373, "dur": 90,
+      "label": "골목 · 대형 차량 근접", "description": "주거지 골목. 밴·트럭이 로봇 바로 옆을 지나가고 주차 차량 사이를 통과" },
+    { "clipId": "frodo_28145", "ride": "ride_28145_20240406063118", "part": 10, "start": 1712385139.52, "dur": 105,
+      "label": "역광 골목 · 인식 난이도", "description": "강한 햇빛·역광과 렌즈 플레어, 그림자. 인식 신뢰도 판단을 보기 좋은 구간" }
+  ]
+}
