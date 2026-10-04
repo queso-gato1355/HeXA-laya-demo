@@ -1,0 +1,13 @@
+packages:
+  - laya-service
+# run package.json scripts with pnpm's cross-platform shell (VAR=value cmd works on Windows)
+shellEmulator: true
+# pnpm 11: packages whose install scripts may run.
+# onnxruntime-node's script only fetches CUDA EP binaries on Linux x64 (no-op on Windows / Pi arm64).
+allowBuilds:
+  esbuild: true
+  onnxruntime-node: true
+  unrs-resolver: true
+  sharp: true
+minimumReleaseAgeExclude:
+  - eslint@10.12.0
