@@ -1,0 +1,10 @@
+{
+  "$comment": "Rover profile shared by the TS dashboard (src/config/rover.ts) and the Python preprocessing. Camera values were estimated from the FrodoBots clip (scripts/preprocess/calibrate_camera.py): horizon row from road vanishing points -> pitch, fraction of cars below the horizon -> height, compass yaw vs image shift while turning -> HFOV. Replace with measured values from the real rover.",
+  "name": "frodobots-earthrover (assumed)",
+  "cameraHeightM": 0.82,
+  "cameraPitchDeg": 5.3,
+  "hfovDeg": 105,
+  "maxSpeedMps": 1.2,
+  "wheelBaseM": 0.3,
+  "widthM": 0.45
+}
