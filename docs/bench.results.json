@@ -1,0 +1,15 @@
+{
+ "host": "win32-x64, AMD Ryzen 9 9950X3D 16-Core Processor x32, 64 GiB, node v24.15.0",
+ "date": "2026-10-03",
+ "threads": 8,
+ "n": 20,
+ "note": "first PC run on an idle machine (2026-10-04 00:1x KST)",
+ "results": [
+  { "ep": "webgpu", "model": "laya", "quantized": false, "threads": 8, "ok": true, "loadMs": 1372, "coldFirstCallMs": 504, "warmFirstCallMs": 102, "single": { "p50": 70, "p95": 99 }, "serial10": { "p50": 739, "p95": 896 }, "batched10": { "p50": 738, "p95": 938 }, "rssMB": 1283 },
+  { "ep": "dml", "model": "laya", "quantized": false, "threads": 8, "ok": false, "error": "Non-zero status code returned while running Reshape node. Name:'node_view' (DmlExecutionProvider, 80070057)" },
+  { "ep": "cpu", "model": "laya", "quantized": false, "threads": 8, "ok": true, "loadMs": 1040, "coldFirstCallMs": 187, "warmFirstCallMs": 178, "single": { "p50": 166, "p95": 230 }, "serial10": { "p50": 1728, "p95": 2090 }, "batched10": { "p50": 2538, "p95": 2999 }, "rssMB": 3090 },
+  { "ep": "webgpu", "model": "laya-int8", "quantized": true, "threads": 8, "ok": true, "loadMs": 1315, "coldFirstCallMs": 716, "warmFirstCallMs": 239, "single": { "p50": 214, "p95": 283 }, "serial10": { "p50": 2244, "p95": 2723 }, "batched10": { "p50": 2112, "p95": 2668 }, "rssMB": 1367 },
+  { "ep": "dml", "model": "laya-int8", "quantized": true, "threads": 8, "ok": false, "error": "Non-zero status code returned while running Reshape node. Name:'node_view' (DmlExecutionProvider, 80070057)" },
+  { "ep": "cpu", "model": "laya-int8", "quantized": true, "threads": 8, "ok": true, "loadMs": 889, "coldFirstCallMs": 106, "warmFirstCallMs": 100, "single": { "p50": 91, "p95": 141 }, "serial10": { "p50": 960, "p95": 1227 }, "batched10": { "p50": 1877, "p95": 2343 }, "rssMB": 1530 }
+ ]
+}

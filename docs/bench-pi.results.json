@@ -1,0 +1,139 @@
+{
+ "host": "win32-x64, AMD Ryzen 9 9950X3D 16-Core Processor x32, 64 GiB, node v24.15.0",
+ "date": "2026-10-03",
+ "threads": 4,
+ "n": 20,
+ "note": "first --pi-proxy run on an idle machine (2026-10-04 00:2x KST); unscaled latencies; fp32 perCriterion = overall single-call p50/p95 (per-criterion split not recorded in that run)",
+ "results": [
+  {
+   "ep": "cpu",
+   "model": "laya",
+   "quantized": false,
+   "threads": 4,
+   "ok": true,
+   "loadMs": 1062,
+   "coldFirstCallMs": 268,
+   "warmFirstCallMs": 258,
+   "single": {
+    "p50": 244,
+    "p95": 331
+   },
+   "serial10": {
+    "p50": 2522,
+    "p95": 3001
+   },
+   "batched10": {
+    "p50": 3464,
+    "p95": 4075
+   },
+   "rssMB": 3086,
+   "perCriterion": {
+    "collision_risk": {
+     "p50": 244,
+     "p95": 331
+    },
+    "maneuver": {
+     "p50": 244,
+     "p95": 331
+    },
+    "target_speed": {
+     "p50": 244,
+     "p95": 331
+    },
+    "pedestrian_yield": {
+     "p50": 244,
+     "p95": 331
+    },
+    "path_blocked": {
+     "p50": 244,
+     "p95": 331
+    },
+    "crossing_safe": {
+     "p50": 244,
+     "p95": 331
+    },
+    "emergency_stop": {
+     "p50": 244,
+     "p95": 331
+    },
+    "route_adherence": {
+     "p50": 244,
+     "p95": 331
+    },
+    "localization_trust": {
+     "p50": 244,
+     "p95": 331
+    },
+    "perception_confidence": {
+     "p50": 244,
+     "p95": 331
+    }
+   }
+  },
+  {
+   "ep": "cpu",
+   "model": "laya-int8",
+   "quantized": true,
+   "threads": 4,
+   "ok": true,
+   "loadMs": 892,
+   "coldFirstCallMs": 137,
+   "warmFirstCallMs": 132,
+   "single": {
+    "p50": 120,
+    "p95": 186
+   },
+   "serial10": {
+    "p50": 1281,
+    "p95": 1649
+   },
+   "batched10": {
+    "p50": 2224,
+    "p95": 2870
+   },
+   "rssMB": 1541,
+   "perCriterion": {
+    "collision_risk": {
+     "p50": 131,
+     "p95": 169
+    },
+    "maneuver": {
+     "p50": 162,
+     "p95": 197
+    },
+    "target_speed": {
+     "p50": 135,
+     "p95": 172
+    },
+    "pedestrian_yield": {
+     "p50": 118,
+     "p95": 155
+    },
+    "path_blocked": {
+     "p50": 117,
+     "p95": 156
+    },
+    "crossing_safe": {
+     "p50": 120,
+     "p95": 159
+    },
+    "emergency_stop": {
+     "p50": 119,
+     "p95": 157
+    },
+    "route_adherence": {
+     "p50": 130,
+     "p95": 166
+    },
+    "localization_trust": {
+     "p50": 119,
+     "p95": 158
+    },
+    "perception_confidence": {
+     "p50": 122,
+     "p95": 161
+    }
+   }
+  }
+ ]
+}
