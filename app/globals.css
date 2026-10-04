@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Consolas", "D2Coding", monospace;
+  --color-risk-0: #34d399;
+  --color-risk-1: #facc15;
+  --color-risk-2: #fb923c;
+  --color-risk-3: #f43f5e;
+}
+
+:root {
+  color-scheme: dark;
+  /* height share of each video row; two rows + timeline fit one 1050px+ screen */
+  --video-vh: 31vh;
+}
+
+html,
+body {
+  background: #0b0f14;
+  color: #e5e7eb;
+}
+
+.panel {
+  @apply rounded-lg border border-white/10 bg-[#121821] p-2;
+}
+
+.panel-title {
+  @apply mb-1.5 flex items-center gap-2 text-[13px] font-semibold tracking-tight text-slate-200;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium leading-none;
+}
+
+/* leaflet without tiles: dark empty canvas */
+.leaflet-container {
+  background: #0f141b !important;
+  font-family: inherit;
+}
